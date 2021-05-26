@@ -25,5 +25,27 @@ conda install Tensorflow
 conda install Keras
 ```
 
-* Ve çalışma alanı artık hazır. Anacondaya gidip yüklü ortamlardan çalışma alanımızı görüntüleyebiliriz. 
+* Ve çalışma alanı artık hazır. Anacondaya gidip yüklü ortamlardan çalışma alanımızı görüntüleyebiliriz.
+* Applications on kısmından çalışma alanımızı açabiliriz.
+* Projemize tıklayıp alt kısımda çıkan uygulamalardan birini seçerek çalışmaya başlayabilirsiniz.
+* Biz Jupyter notebook ile devam edeceğiz.
+* Veri seti import edilir.
+```
+from keras.datasets import veriseti
+```
+
+* Veri seti eğitim ve test olarak ikiye ayrılır.
+```
+(x_train,t_train), (x_test,y_test) = veriseti.load_data()
+```
+
+* Numpy kütüphanesi import edilir.
+```
+import numpy as np
+```
+
+
+
+
+
 ##
