@@ -2,6 +2,12 @@
 CNN-Keras
 ## Cnn Nedir?
 ## Tensorflow Nedir?
+## Sınıflandırma
+***3 ayrı sınıflandırma türü var.***
+* İkili sınıflandırma: bir resimde bir etiket bulunur. 0-1 şeklinde öğrenir. Kedi var mı yok mu şeklinde.
+* Çok sınıflı sınıflandırma: bir resimde tek etiket olabilir. Ama sınıflandırılacak nesne sayısı çoktur. (2 den fazladır.)
+* Çok etiketli sınıflandırma: 2 den fazla sınıf vardır. Bir resimde birden fazla nesne bulunabilir.
+
 ## Keras Nedir?
 ### Keras Projesi Nasıl Oluşturulur?
 * Anaconda Promt açılır.
