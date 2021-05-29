@@ -50,6 +50,7 @@ from keras.datasets import veriseti
 import numpy as np
 ```
 
+* Veri seti oluşturulur.
 
 
 
